@@ -1,0 +1,25 @@
+.searchInput {
+  position: relative;
+  margin-top: 5px;
+
+  &__field {
+    width: 90%;
+    font-size: 21px;
+    padding-left: 11%;
+    padding-right: 3%;
+    border: 2px solid $main-color;
+    border-radius: 5px;
+
+  }
+
+  &__field:focus {
+    outline: none;
+  }
+
+  &__icon {
+    font-size: 25px;
+    position: absolute;
+    left: 8%;
+    color: $main-color;
+  }
+}

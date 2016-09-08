@@ -1,0 +1,26 @@
+{
+  "name": "prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.6",
+    "bootswatch": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "normalize.css": "^4.2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.15.0",
+    "autoprefixer": "^6.4.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "run-sequence": "^1.2.2",
+    "gulp": "^3.9.1"
+  }
+}

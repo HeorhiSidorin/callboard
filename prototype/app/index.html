@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="dist/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="header">
+          <div class="header__logo">
+            Доска объявлений
+          </div>
+          <div class="header__buttons">
+            <div class="profileButton">
+              <button>
+                <i class="fa fa-user" aria-hidden="true"></i>
+                Профиль
+              </button>
+            </div>
+            <div class="addAdButton">
+              <button>
+                <i class="fa fa-plus" aria-hidden="true"></i>
+                ПОДАТЬ ОБЪЯВЛЕНИЕ
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="container">
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+        <div class="sidePanel">
+          <div class="searchInput">
+            <input type="text" class="searchInput__field" autocomplete="off" placeholder="Поиск..." />
+            <span class="searchInput__icon">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </span>
+          </div>
+          <ul class="checkboxPanel">
+            <li>
+              <input type="radio" name="search" class="checkboxPanel__input" value="" id="searchEverywhere">
+              <label for="searchEverywhere" class="checkboxPanel__label">Искать везде</label>
+            </li>
+            <li>
+              <input type="radio" name="search" class="checkboxPanel__input" value="" id="searchInName">
+              <label for="searchInName" class="checkboxPanel__label">Искать в названии</label>
+            </li>
+          </ul>
+        </div>
+        <div class="sidePanel">
+          <ul class="checkboxPanel">
+            <li>
+              <input type="checkbox" class="checkboxPanel__input" value="" id="cat1">
+              <label for="cat1" class="checkboxPanel__label">Одежда</label>
+            </li>
+            <li>
+              <input type="checkbox" class="checkboxPanel__input" value="" id="cat2">
+              <label for="cat2" class="checkboxPanel__label">Животные</label>
+            </li>
+            <li>
+              <input type="checkbox" class="checkboxPanel__input" value="" id="cat3">
+              <label for="cat3" class="checkboxPanel__label">Спорт</label>
+            </li>
+            <li>
+              <input type="checkbox" class="checkboxPanel__input" value="" id="cat4">
+              <label for="cat4" class="checkboxPanel__label">Недвижимость</label>
+            </li>
+            <li>
+              <input type="checkbox" class="checkboxPanel__input" value="" id="cat5">
+              <label for="cat5" class="checkboxPanel__label">Прочее</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-offset-1 col-lg-7">
+        <ul class="navigation">
+          <li class="navigation__link is-active">
+            <a href="#">Все</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#">Продажа</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#">Покупка</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#">Обмен</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#">Услуга</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#">Аренда</a>
+          </li>
+        </ul>
+        <div class="sortingBlock">
+          <span>Сортировать: </span>
+          <div class="dropdown">
+            <span class="dropdown__dataType">По дате </span>
+            <div class="dropdown__select">
+              <select>
+                <option>от новых к старым</option>
+                <option>от старых к новым</option>
+              </select>
+            </div>
+            <span class="dropdown__arrow"><i class="fa fa-chevron-down"></i></span>
+          </div>
+          <div class="dropdown">
+            <span  class="dropdown__dataType">По цене </span>
+            <div class="dropdown__select">
+              <select>
+                <option>сначала дешёвые</option>
+                <option>сначала дорогие</option>
+              </select>
+            </div>
+            <span class="dropdown__arrow"><i class="fa fa-chevron-down"></i></span>
+          </div>
+        </div>
+        <div class="adList">
+          <div class="adItem">
+            <div class="adItem__image">
+              <img src="dist/img/example.png" />
+            </div>
+            <div class="adItem__content">
+              <span class="adName">Щенок</span>
+              <span class="adPrice">70 BYN</span>
+              <p class="adDescription">
+                Отличные щенки самого нарядного окраса- перец с солью,дата рождения 250 - Показать номер - с родословной,
+                не линяют, не воняют, выращенны в домашних условиях, отлично ладят с детьми.
+                Родители породистые жесткошерстные цвергшнауцеры с устойчивой психикой.
+              </p>
+              <span class="adDate">19.03.2016 в 19.30</span>
+              <span class="adType">Продажа</span>
+            </div>
+          </div>
+          <div class="adItem">
+            <div class="adItem__image">
+              <img src="dist/img/example.png" />
+            </div>
+            <div class="adItem__content">
+              <span class="adName">Щенок</span>
+              <span class="adPrice">70 BYN</span>
+              <p class="adDescription">
+                Отличные щенки самого нарядного окраса- перец с солью,дата рождения 250 - Показать номер - с родословной,
+                не линяют, не воняют, выращенны в домашних условиях, отлично ладят с детьми.
+                Родители породистые жесткошерстные цвергшнауцеры с устойчивой психикой.
+              </p>
+              <span class="adDate">19.03.2016 в 19.30</span>
+              <span class="adType">Покупка</span>
+            </div>
+          </div>
+          <div class="adItem">
+            <div class="adItem__image">
+              <img src="dist/img/example.png" />
+            </div>
+            <div class="adItem__content">
+              <span class="adName">Щенок</span>
+              <span class="adPrice">70 BYN</span>
+              <p class="adDescription">
+                Отличные щенки самого нарядного окраса- перец с солью,дата рождения 250 - Показать номер - с родословной,
+                не линяют, не воняют, выращенны в домашних условиях, отлично ладят с детьми.
+                Родители породистые жесткошерстные цвергшнауцеры с устойчивой психикой.
+              </p>
+              <span class="adDate">19.03.2016 в 19.30</span>
+              <span class="adType">Обмен</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div>
+  </section>
+</body>
+
+</html>

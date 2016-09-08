@@ -1,0 +1,37 @@
+.navigation {
+  padding-left: 0;
+  margin-top: 47px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 22px;
+  border: 2px solid $main-color;
+  border-radius: 5px;
+  font-weight: bold;
+
+  &__link {
+    flex-grow: 1;
+
+    a {
+      color: #333;
+      display: block;
+
+      &:focus {
+        text-decoration: none;
+      }
+    }
+
+    &:hover {
+      @extend .is-active;
+    }
+  }
+}
+
+.is-active {
+  background: $main-color;
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}

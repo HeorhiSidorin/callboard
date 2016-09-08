@@ -1,0 +1,48 @@
+header {
+  background: $main-color;
+  padding: 15px 0;
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    &__logo {
+      color: white;
+      padding: 0px 15px;
+      font-size: 36px;
+      font-weight: bold;
+      border: 2px solid white;
+      border-radius: 2px;
+      display: inline-block;
+      letter-spacing: 2px;
+    }
+
+    &__buttons {
+      display: flex;
+
+      .profileButton {
+        color: white;
+        margin-right: 20px;
+
+        button {
+          font-size: 21px;
+          background: transparent;
+          border: none;
+        }
+      }
+
+      .addAdButton {
+        color: white;
+
+        button {
+          font-size: 19px;
+          background: $adButton;
+          border: none;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

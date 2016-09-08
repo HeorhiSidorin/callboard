@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import "./_variables";
+@import "./header";
+@import "./sidePanel";
+@import "./searchInput";
+@import "./checkboxPanel";
+@import "./navigation";
+@import "./sortingBlock";
+@import "./adList";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
