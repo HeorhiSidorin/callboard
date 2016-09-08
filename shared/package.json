@@ -1,0 +1,24 @@
+{
+  "name": "lib",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "dependencies": {
+    "lodash": "4.13.1",
+    "mongo": "0.1.0",
+    "monk": "3.0.7",
+    "winston": "2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "3.0.1",
+    "eslint-config-airbnb": "9.0.1",
+    "eslint-config-airbnb-base": "4.0.0",
+    "eslint-plugin-import": "1.10.2",
+    "eslint-plugin-jsx-a11y": "2.0.1",
+    "eslint-plugin-react": "5.2.2",
+    "npm-run-all": "2.3.0"
+  },
+  "engines": {
+    "node": "~6.3.0"
+  }
+}
